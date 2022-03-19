@@ -1,0 +1,46 @@
+
+body {
+  padding-top: 50px;
+}
+.row > div {
+  display: flex
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar {
+  padding-bottom: 0;
+  padding-top: 10px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+  
+}
+@media screen and (min-width: 992px) {
+    .nav-item {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .nav-item {
+      background: white;
+      border: 2px solid #000;
+    }
+   
+  }
+
+  @media screen and (max-width: 991px) {
+    .container {
+     margin-left: auto;
+     margin-right: auto;
+     
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .row > div {
+     padding-top: 30px;
+     
+    }
+  }
